@@ -1,0 +1,355 @@
+nav{
+    padding: 5px;
+    text-align:center;
+    margin-top: 5%;
+    background-color: azure;
+    border-radius:10%;
+}
+a{
+    text-decoration: none;
+    padding:14px;
+    font-family:cursive;
+    font-size: 18px;
+    color:rgb(54, 49, 49);
+}
+nav a:hover{
+    text-decoration: none;
+    padding:14px;
+    font-family:cursive;
+    font-size: 18px;
+    color:rgb(154, 199, 219);
+    border-radius: 30%;
+    text-decoration: underline;
+}
+
+body{
+    background-color:rgb(15, 15, 15);
+    margin:5%;
+}
+#about{
+    display: flex;
+    /*background-color: rgb(50, 46, 46);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmuoroBYs_fEQZp6rJrsdgEXSupOCKqRHEQ&usqp=CAU);
+    */background-repeat: no-repeat;
+    background-color:azure;
+    background-size: cover;
+    /*box-shadow: 1px 2px 4px 7px  rgb(229, 235, 209);*/
+    margin-top: 3%;
+    width:100%;
+    border-radius: 3%;
+}
+#about-content{
+width:65%;
+align-content:center;
+padding: 12px;
+margin-left: 1%;
+text-align: justify;
+font-size: 18px;
+}
+#about-content h1,h2{
+    color:rgb(247, 245, 245);
+}
+#about-content p{
+    color:rgb(254, 252, 252);
+    font-size: 18px;
+    font-family: cursive;
+}
+#pic{
+    border-radius: 50%;
+    float:right;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#content{
+    margin-top:2%;
+    color:rgb(244, 244, 245);
+    font-family: cursive;
+}
+#content a{
+    color:rgb(244, 244, 245);
+    font-family: cursive;
+    font-size:18px;
+}
+table{
+    color:rgb(246, 245, 248);
+    padding: 5px;
+}
+#table h1{
+    color:white;
+    font-family: cursive;
+}
+td{
+    font-family: cursive;
+    border: 1px solid red;
+    padding:8px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(139, 132, 230);
+}
+th{
+    font-family: cursive;
+    border: 1px solid red;
+    background-color: rgb(73, 66, 213);
+    padding:8px;
+    font-size: 22px;
+}
+#academic{
+    width:100%;
+    margin-top:3%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    display: flex;
+    max-height: 70%;
+}
+#btech{
+    background-color: rgb(73, 70, 65);
+    width:100%;
+    float:left;
+    padding:5px;
+    text-align: center;
+    height:100%;
+    border-radius: 9%;
+}
+#btech h1{
+    background-color: rgb(179, 200, 219);
+    border-radius: 50%;
+}
+#btech-content{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(240, 239, 244);
+    font-size:18px;
+}
+#btech-img{
+    border-radius: 50%;
+    height:100%;
+    width:30%;
+    float:left;
+    margin-right: 2%;
+}
+#btech-img:hover{
+    border-radius: 50%;
+    height:100%;
+    width:60%;
+    float:left;
+}
+#btech-content:hover{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(215, 163, 33);
+}
+#inter{
+    background-color:  rgb(73, 70, 65);
+    width:100%;
+    float:left;
+    margin-left:2%;
+    padding:5px;
+    text-align: center;
+    height:100%;
+    border-radius:9%;
+}
+#inter h1{
+    background-color: rgb(179, 200, 219);
+    border-radius:50%;
+}
+#inter-content{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(251, 250, 255);
+    font-size:18px;
+}
+#inter-img{
+    border-radius: 50%;
+    height:100%;
+    width:30%;
+    float:left;
+    margin-right: 2%;
+}
+#inter-img:hover{
+    border-radius: 50%;
+    height:100%;
+    width:60%;
+    float:left;
+}
+#inter-content:hover{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(215, 163, 33);
+}
+#school{
+    background-color:  rgb(73, 70, 65);
+    width:100%;
+    float:left;
+    padding:5px;
+    margin-left:2%;
+    text-align: center;
+    height:100%;
+    border-radius:9%;
+}
+#school h1{
+    background-color: rgb(179, 200, 219);
+    border-radius:50%;
+}
+#school-content{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(248, 246, 253);
+    font-size:18px;
+}
+#school-img{
+    border-radius: 50%;
+    height:100%;
+    width:30%;
+    float:left;
+    margin-right: 2%;
+}
+#school-img:hover{
+    border-radius: 50%;
+    height:100%;
+    width:60%;
+    float:left;
+}
+#school-content:hover{
+    text-align: justify;
+    align-content: center;
+    padding:9px;
+    color:rgb(215, 163, 33);
+}
+#skill{
+    width:100%;
+    display:flex
+}
+#skill-content{
+    display: block;
+    width:43%;
+    margin-top:3%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+    font-size: 18px;
+}
+#skill h1{
+    margin-top:3%;
+    padding:5px;
+    font-family: cursive;
+    color:white;
+}
+#skill-img1{
+    float:right;
+    width:65%;
+    margin-top:7%;
+    border-radius: 20%;
+}
+
+#certify{
+    display: block;
+    width:100%;
+    margin-top:1%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+}
+#certify-link{
+    margin-top:3%;
+    padding:5px;
+    font-family: cursive;
+    color:rgb(214, 180, 180);
+    text-decoration: underline;
+}
+#certify li b{
+    font-size: 19px;
+    color:white;
+}
+#certify li{
+    font-size: 18px;
+    color:white;
+}
+#certify li b:hover{
+    color:rgb(185, 149, 223);
+}
+#certify img{
+    margin-top:3%;
+    width:100%;
+    border: 10px double rgb(24, 151, 173);
+    border-radius: 2%;
+}
+#achieve{
+    display: block;
+    width:100%;
+    margin-top:3%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+}
+#achieve li{
+    color:white;
+    font-size: 18px;
+}
+#intern{
+    display: block;
+    width:100%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+}
+#intern li{
+    color:white;
+    font-size: 18px;
+}
+#project{
+    display: block;
+    width:100%;
+    margin-top:3%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+}
+#project p,li{
+color:white;
+font-size:18px;
+}
+#project-link{
+    margin-top:3%;
+    padding:5px;
+    font-family: cursive;
+    color:rgb(214, 180, 180);
+    text-decoration: underline;
+}
+#curricular{
+    display: block;
+    width:100%;
+    margin-top:1%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+    text-align:justify
+}
+#curricular li{
+    color:white;
+    font-size: 18px;
+}
+#personal{
+    display: block;
+    width:100%;
+    padding:5px;
+    align-items: center;
+    font-family: cursive;
+    color:white;
+}
+#personal p{
+    color:white;
+    font-size: 18px;
+}
