@@ -358,6 +358,7 @@ font-size:18px;
 footer{
     background-color: aliceblue;
     margin:0;
-    width:50%;
+    width:30%;
     align-items: center;
+    border-radius:5%;
 }
