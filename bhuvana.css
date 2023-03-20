@@ -265,16 +265,18 @@ th{
     color:rgb(214, 180, 180);
     text-decoration: underline;
 }
-#certify li b{
+#certify li a{
     font-size: 19px;
     color:white;
 }
 #certify li{
     font-size: 18px;
-    color:white;
+    color:rgb(245, 237, 237);
 }
-#certify li b:hover{
-    color:rgb(185, 149, 223);
+#certify li a:hover{
+    color:rgb(15, 15, 15);
+    background-color: aliceblue;
+    border-radius: 50%;
 }
 #certify img{
     margin-top:3%;
@@ -352,4 +354,10 @@ font-size:18px;
 #personal p{
     color:white;
     font-size: 18px;
+}
+footer{
+    background-color: aliceblue;
+    margin:0;
+    width:50%;
+    align-items: center;
 }
